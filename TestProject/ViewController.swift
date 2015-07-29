@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     
     //Created new function
     func sayHello(personName: String) -> String {
-        let greeting = "Hello, " + personName + "!"
+        let greeting = "Aloha, " + personName + "!"
         return greeting
     }
 
