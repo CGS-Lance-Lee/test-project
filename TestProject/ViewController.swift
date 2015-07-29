@@ -14,20 +14,23 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        //Swag commit
-        println("Screw my life")
+        //Prints "this is very confusing"
+        println("this is very confusing")
     }
 
     func averageFeature() {
         
         //New comment
-        //Bug fix pls
+        //Bug fix on the average feature
         println("This is an average feature");
         
     }
     
-    func featureY()
-
+    //Created new function
+    func sayHello(personName: String) -> String {
+        let greeting = "Hello, " + personName + "!"
+        return greeting
+    }
 
 }
 
