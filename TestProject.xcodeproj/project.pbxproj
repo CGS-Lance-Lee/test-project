@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820400501B719D58008B6937 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8204004F1B719D58008B6937 /* SecondViewController.swift */; };
 		823DEA781B61DBAC003FB125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823DEA771B61DBAC003FB125 /* AppDelegate.swift */; };
 		823DEA7A1B61DBAC003FB125 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823DEA791B61DBAC003FB125 /* ViewController.swift */; };
 		823DEA7D1B61DBAD003FB125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823DEA7B1B61DBAD003FB125 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8204004F1B719D58008B6937 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		823DEA721B61DBAC003FB125 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		823DEA761B61DBAC003FB125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		823DEA771B61DBAC003FB125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				823DEA771B61DBAC003FB125 /* AppDelegate.swift */,
 				823DEA791B61DBAC003FB125 /* ViewController.swift */,
+				8204004F1B719D58008B6937 /* SecondViewController.swift */,
 				823DEA7B1B61DBAD003FB125 /* Main.storyboard */,
 				823DEA7E1B61DBAD003FB125 /* Images.xcassets */,
 				823DEA801B61DBAD003FB125 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820400501B719D58008B6937 /* SecondViewController.swift in Sources */,
 				823DEA7A1B61DBAC003FB125 /* ViewController.swift in Sources */,
 				823DEA781B61DBAC003FB125 /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +415,7 @@
 				823DEA931B61DBAE003FB125 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		823DEA941B61DBAE003FB125 /* Build configuration list for PBXNativeTarget "TestProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				823DEA961B61DBAE003FB125 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
